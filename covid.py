@@ -263,3 +263,16 @@ print()
 
 #////////////////////////////////
 #punto 18
+
+genCiudad = data.groupby(['Nombre departamento','Nombre municipio','Sexo']).size()
+print("Punto 18")
+print(genCiudad)
+print()
+
+genCiudad = data.groupby(['Nombre departamento','Nombre municipio','Sexo']).size()
+print("Punto 18")
+print(genCiudad)
+print()
+
+#////////////////////////////////
+#punto 19
