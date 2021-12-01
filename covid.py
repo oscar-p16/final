@@ -375,3 +375,15 @@ print()
 
 #////////////////////////////////
 #punto 26
+
+promEdadCiu = data.groupby(['Nombre municipio','Sexo']).Edad.mean()
+print("Punto 26")
+print(promEdadCiu)
+print()
+
+print("Punto 26")
+print(promEdadCiu)
+print()
+
+#////////////////////////////////
+#punto 27
