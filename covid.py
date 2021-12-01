@@ -174,3 +174,16 @@ print()
 
 #////////////////////////////////
 #punto 11
+
+topDeptCo = data.groupby('Nombre departamento').size().sort_values(ascending = False).head(10)
+print("Punto 11")
+print(topDeptCo)
+print() 
+
+topDeptCo = data.groupby('Nombre departamento').size().sort_values(ascending = False).head(10)
+print("Punto 11")
+print(topDeptCo)
+print()
+
+#////////////////////////////////
+#punto 12
