@@ -111,3 +111,14 @@ print()
 
 #////////////////////////////////
 #punto 7
+
+tipoContagio = data.groupby('Tipo de contagio').size().sort_values(ascending = False)
+print("Punto 7")
+print(tipoContagio)
+print()
+
+print(tipoContagio)
+print()
+
+#////////////////////////////////
+#punto 8
