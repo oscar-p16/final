@@ -453,3 +453,17 @@ print()
 
 #////////////////////////////////
 #punto 31
+
+porcAten = ((data.groupby('Ubicación del caso').size().sort_values(ascending = False)) / ((data.groupby('Ubicación del caso').size().sort_values(ascending = False)).sum())) * 100
+print("Punto 31")
+print(porcAten)
+print() 
+
+porcAten = ((data.groupby('Ubicación del caso').size().sort_values(ascending = False)) / ((data.groupby('Ubicación del caso').size().sort_values(ascending = False)).sum())) * 100
+print("Punto 31")
+print(porcAten)
+print() 
+print()
+
+#////////////////////////////////
+#punto 32
