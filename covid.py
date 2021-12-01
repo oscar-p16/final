@@ -481,3 +481,12 @@ data.groupby(['Sexo']).size().sort_values(ascending = False).plot(kind='bar')
 
 #////////////////////////////////
 #punto 34
+
+data.groupby(['Tipo de contagio']).size().sort_values(ascending = False).plot(kind='bar') 
+
+data.groupby(['Tipo de contagio']).size().sort_values(ascending = False).plot(kind='bar')
+
+#////////////////////////////////
+#punto 35
+
+
