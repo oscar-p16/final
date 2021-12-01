@@ -276,3 +276,16 @@ print()
 
 #////////////////////////////////
 #punto 19
+
+promCiudad = data.groupby(['Nombre departamento','Nombre municipio','Sexo']).Edad.mean()
+print("Punto 19")
+print(promCiudad)
+print()
+
+promCiudad = data.groupby(['Nombre departamento','Nombre municipio','Sexo']).Edad.mean()
+print("Punto 19")
+print(promCiudad)
+print()
+
+#////////////////////////////////
+#punto 20
