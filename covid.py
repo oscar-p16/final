@@ -122,3 +122,15 @@ print()
 
 #////////////////////////////////
 #punto 8
+data['Nombre departamento'].replace('Tolima','TOLIMA',inplace=True)
+data['Nombre departamento'].replace('Caldas','CALDAS',inplace=True)
+num_dept = len(data.groupby('Nombre departamento').size().sort_values(ascending = False))
+print("Punto 8")
+print(num_dept)
+print()
+
+print(num_dept)
+print()
+
+#////////////////////////////////
+#punto 9
