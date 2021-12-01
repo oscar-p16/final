@@ -214,3 +214,14 @@ print()
 
 #////////////////////////////////
 #punto 14
+
+topMunCo = data.groupby('Nombre municipio').size().sort_values(ascending = False).head(10)
+print("Punto 14")
+print(topMunCo)
+print()
+
+print(topMunCo)
+print()
+
+#////////////////////////////////
+#punto 15
