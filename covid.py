@@ -200,3 +200,17 @@ print()
 
 #////////////////////////////////
 #punto 13
+
+topDeptRe = data[data['Recuperado'] == 'Recuperado'].groupby('Nombre departamento').size().sort_values(ascending = False).head(10)
+print("Punto 13")
+print(topDeptRe)
+print() 
+
+topDeptRe = data[data['Recuperado'] == 'Recuperado'].groupby('Nombre departamento').size().sort_values(ascending = False).head(10)
+print("Punto 13")
+print(topDeptRe)
+print() 
+print()
+
+#////////////////////////////////
+#punto 14
