@@ -25,3 +25,33 @@ print()
 
 #////////////////////////////////
 
+# Número de Municipios
+
+num_muni = len(data.groupby('Nombre municipio').size())
+print("P")
+print(num_muni)
+print() 
+
+num_muni = len(data.groupby('Nombre municipio').size())
+print("P")
+print(num_muni)
+print()
+
+num_muni = len(data.groupby('Nombre municipio').size())
+print("P")
+print(num_muni)
+print()
+
+# municipios afectados
+
+data['Ubicación del caso'].replace('casa','Casa',inplace=True)
+data['Ubicación del caso'].replace('CASA','Casa',inplace=True)
+num_encasa = len(data[data['Ubicación del caso'] == 'Casa'])
+print("Punto 4")
+print(num_encasa)
+print() 
+
+num_encasa = len(data[data['Ubicación del caso'] == 'Casa'])
+print("Punto 4")
+print(num_encasa)
+print()
