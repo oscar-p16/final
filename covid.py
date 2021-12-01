@@ -440,3 +440,16 @@ plt.show()
 
 #////////////////////////////////
 #punto 30
+
+falleEdad = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Edad').size().sort_values(ascending = False)
+print("Punto 30")
+print(falleEdad)
+print() 
+
+falleEdad = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Edad').size().sort_values(ascending = False)
+print("Punto 30")
+print(falleEdad)
+print()
+
+#////////////////////////////////
+#punto 31
