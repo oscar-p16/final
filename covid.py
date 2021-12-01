@@ -42,6 +42,7 @@ print("P")
 print(num_muni)
 print()
 
+#////////////////////////////////
 # municipios afectados
 
 data['Ubicación del caso'].replace('casa','Casa',inplace=True)
@@ -55,3 +56,21 @@ num_encasa = len(data[data['Ubicación del caso'] == 'Casa'])
 print("Punto 4")
 print(num_encasa)
 print()
+
+
+#////////////////////////////////
+#punto 5
+data['Recuperado'].replace('fallecido','Fallecido',inplace=True)
+num_recu = len(data[data['Recuperado'] == 'Recuperado'])
+print("Punto 5")
+print(num_recu)
+print()
+
+num_recu = len(data[data['Recuperado'] == 'Recuperado'])
+print("Punto 5")
+print(num_recu)
+print() 
+print()
+
+#////////////////////////////////
+#punto 6
