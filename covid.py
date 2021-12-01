@@ -332,3 +332,18 @@ print()
 
 #////////////////////////////////
 #punto 23
+
+tasaMorDept = (data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre departamento').size().sort_values(ascending = False) / data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre departamento').size().sort_values(ascending = False).sum()) * 100
+tasaRecDept = (data[data['Recuperado'] == 'Recuperado'].groupby('Nombre departamento').size().sort_values(ascending = False) / data[data['Recuperado'] == 'Recuperado'].groupby('Nombre departamento').size().sort_values(ascending = False).sum()) * 100
+print("Punto 23")
+print(tasaMorDept)
+print(tasaRecDept)
+print() 
+
+print("Punto 23")
+print(tasaMorDept)
+print(tasaRecDept)
+print()
+
+#////////////////////////////////
+#punto 24
