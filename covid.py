@@ -304,3 +304,16 @@ print()
 
 #////////////////////////////////
 #punto 21
+
+fechaContagios = data.groupby('Fecha de diagnóstico').size().sort_values(ascending = False)
+print("Punto 21")
+print(fechaContagios)
+print() 
+
+fechaContagios = data.groupby('Fecha de diagnóstico').size().sort_values(ascending = False)
+print("Punto 21")
+print(fechaContagios)
+print()
+
+#////////////////////////////////
+#punto 22
