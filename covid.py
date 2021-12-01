@@ -159,3 +159,18 @@ print()
 
 #////////////////////////////////
 #punto 10
+
+tipoAtencion = data.groupby('Ubicación del caso').size().sort_values(ascending = False)
+print("Punto 10")
+print(tipoAtencion)
+print() 
+tipoAtencion = data.groupby('Ubicación del caso').size().sort_values(ascending = False)
+print("Punto 10")
+print(tipoAtencion)
+print()tipoAtencion = data.groupby('Ubicación del caso').size().sort_values(ascending = False)
+print("Punto 10")
+print(tipoAtencion)
+print()
+
+#////////////////////////////////
+#punto 11
