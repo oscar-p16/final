@@ -74,3 +74,40 @@ print()
 
 #////////////////////////////////
 #punto 6
+
+num_fall = len(data[data['Ubicación del caso'] == 'Fallecido'])
+print("Punto 6")
+print(num_fall)
+print()
+
+data['Estado'].replace('LEVE','Leve',inplace=True)
+
+
+num_pais = len(data)
+print("Punto 1")
+print(num_pais)
+print()
+
+
+num_muni = len(data.groupby('Nombre municipio').size())
+print("Punto 2")
+print(num_muni)
+print()
+
+
+
+list_muni = data.groupby('Nombre municipio').size().sort_values(ascending = False)
+print("Punto 3")
+print(list_muni)
+
+print()
+
+
+
+num_fall = len(data[data['Ubicación del caso'] == 'Fallecido'])
+print("Punto 6")
+print(num_fall)
+print()
+
+#////////////////////////////////
+#punto 7
