@@ -225,3 +225,30 @@ print()
 
 #////////////////////////////////
 #punto 15
+
+
+topMunFa = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre municipio').size().sort_values(ascending = False).head(10)
+print("Punto 15")
+print(topMunFa)
+print()
+
+topMunFa = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre municipio').size().sort_values(ascending = False).head(10)
+print("Punto 15")
+print(topMunFa)
+print()
+
+#////////////////////////////////
+#punto 16
+
+topMunRe = data[data['Recuperado'] == 'Recuperado'].groupby('Nombre municipio').size().sort_values(ascending = False).head(10)
+print("Punto 16")
+print(topMunRe)
+print()  
+
+topMunRe = data[data['Recuperado'] == 'Recuperado'].groupby('Nombre municipio').size().sort_values(ascending = False).head(10)
+print("Punto 16")
+print(topMunRe)
+print() 
+
+#////////////////////////////////
+#punto 17
