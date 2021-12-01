@@ -347,3 +347,18 @@ print()
 
 #////////////////////////////////
 #punto 24
+
+tasaMorCiu = (data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre municipio').size().sort_values(ascending = False) / data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre municipio').size().sort_values(ascending = False).sum()) * 100
+tasaRecCiu = (data[data['Recuperado'] == 'Recuperado'].groupby('Nombre municipio').size().sort_values(ascending = False) / data[data['Recuperado'] == 'Recuperado'].groupby('Nombre municipio').size().sort_values(ascending = False).sum()) * 100
+print("Punto 24")
+print(tasaMorCiu)
+print(tasaRecCiu)
+print() 
+
+print("Punto 24")
+print(tasaMorCiu)
+print(tasaRecCiu)
+print()
+
+#////////////////////////////////
+#punto 25
