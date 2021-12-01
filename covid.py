@@ -187,3 +187,16 @@ print()
 
 #////////////////////////////////
 #punto 12
+
+topDeptFa = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre departamento').size().sort_values(ascending = False).head(10)
+print("Punto 12")
+print(topDeptFa)
+print() 
+
+topDeptFa = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre departamento').size().sort_values(ascending = False).head(10)
+print("Punto 12")
+print(topDeptFa)
+print()
+
+#////////////////////////////////
+#punto 13
