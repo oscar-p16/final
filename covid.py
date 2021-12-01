@@ -467,3 +467,10 @@ print()
 
 #////////////////////////////////
 #punto 32
+
+data.groupby(['Ubicación del caso']).size().sort_values(ascending = False).plot(kind='bar') 
+data.groupby(['Ubicación del caso']).size().sort_values(ascending = False).plot(kind='bar') 
+data.groupby(['Ubicación del caso']).size().sort_values(ascending = False).plot(kind='bar')
+
+#////////////////////////////////
+#punto 33
