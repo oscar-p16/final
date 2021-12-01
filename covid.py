@@ -317,3 +317,18 @@ print()
 
 #////////////////////////////////
 #punto 22
+
+tasaMor = (len(data[data['Ubicación del caso'] == 'Fallecido']) / len(data)) * 100
+tasaRec = (len(data[data['Recuperado'] == 'Recuperado']) / len(data)) * 100
+print("Punto 22")
+print(tasaMor)
+print(tasaRec)
+print() 
+
+print("Punto 22")
+print(tasaMor)
+print(tasaRec)
+print()
+
+#////////////////////////////////
+#punto 23
