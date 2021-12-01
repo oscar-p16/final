@@ -362,3 +362,16 @@ print()
 
 #////////////////////////////////
 #punto 25
+atenCiu = data.groupby(['Nombre municipio','Ubicación del caso']).size()
+print("Punto 25")
+print(atenCiu)
+print() 
+atenCiu = data.groupby(['Nombre municipio','Ubicación del caso']).size()
+print("Punto 25")
+print(atenCiu)
+print() 
+print()
+
+
+#////////////////////////////////
+#punto 26
