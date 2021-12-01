@@ -289,3 +289,18 @@ print()
 
 #////////////////////////////////
 #punto 20
+
+data['Nombre del país'].replace('ESTADOS UNIDOS','ESTADOS UNIDOS DE AMÉRICA',inplace=True)
+data['Nombre del país'].replace('VENEUELA','VENEZUELA',inplace=True)
+data['Nombre del país'].replace('MEXICO','MÉXICO',inplace=True)
+paisProc = data.groupby('Nombre del país').size().sort_values(ascending = False)
+print("Punto 20")
+print(paisProc)
+
+paisProc = data.groupby('Nombre del país').size().sort_values(ascending = False)
+print("Punto 20")
+print(paisProc)
+print()
+
+#////////////////////////////////
+#punto 21
