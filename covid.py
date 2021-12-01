@@ -387,3 +387,23 @@ print()
 
 #////////////////////////////////
 #punto 27
+
+data.groupby('Fecha de diagnóstico').size().cumsum().plot(label = "Contagios",figsize=(25,10))
+Fallecidos = data[data['Ubicación del caso'] == 'Fallecido']
+Fallecidos.groupby('Fecha de diagnóstico').size().cumsum().plot(label = "Fallecidos ",figsize=(25,10))
+Recuperado = data[data['Recuperado'] == 'Recuperado']
+Recuperado.groupby('Fecha de diagnóstico').size().cumsum().plot(label = "Recuperados",figsize=(25,10))
+plt.legend()
+plt.show() 
+
+data.groupby('Fecha de diagnóstico').size().cumsum().plot(label = "Contagios",figsize=(25,10))
+Fallecidos = data[data['Ubicación del caso'] == 'Fallecido']
+Fallecidos.groupby('Fecha de diagnóstico').size().cumsum().plot(label = "Fallecidos ",figsize=(25,10))
+Fallecidos.groupby('Fecha de diagnóstico').size().cumsum().plot(label = "Fallecidos",figsize=(25,10))
+Recuperado = data[data['Recuperado'] == 'Recuperado']
+Recuperado.groupby('Fecha de diagnóstico').size().cumsum().plot(label = "Recuperados",figsize=(25,10))
+plt.legend()
+plt.show()
+
+#////////////////////////////////
+#punto 28
