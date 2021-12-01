@@ -252,3 +252,14 @@ print()
 
 #////////////////////////////////
 #punto 17
+ciudadesCont = data.groupby(['Nombre departamento','Nombre municipio']).size().sort_values(ascending = False)
+print("Punto 17")
+print(ciudadesCont)
+
+ciudadesCont = data.groupby(['Nombre departamento','Nombre municipio']).size().sort_values(ascending = False)
+print("Punto 17")
+print(ciudadesCont)
+print()
+
+#////////////////////////////////
+#punto 18
